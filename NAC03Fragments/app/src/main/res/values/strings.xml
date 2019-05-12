@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NAC03-Fragments</string>
+    <string name="lamborghini_aventador">Lamborghini Aventador</string>
+    <string name="ferrari_f40">Ferrari F40</string>
+    <string name="lambo">Lamborghini Aventador</string>
+    <string name="caracteristicas">Caracteristicas</string>
+    <string name="velocidade_max">Velocidade Maxima:</string>
+    <string name="ferrari">Ferrari_478</string>
+    <string name="aceleracao">Aceleração de 0 a 100 km/h:</string>
+    <string name="consumo">Consumo:</string>
+    <string name="boeing">Boeing 747</string>
+    <string name="jaguar">Jaguar F-Type</string>
+    <string name="missao">Tipo/Missão:</string>
+    <string name="assentos">Assentos:</string>
+</resources>

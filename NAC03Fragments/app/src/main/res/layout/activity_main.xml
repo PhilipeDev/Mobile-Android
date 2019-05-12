@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/laranjinha">
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ferrari F40"
+        android:textColor="@color/branco"
+        android:background="@color/vermelho"
+        android:onClick="exibirFragmentFerrari"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lamborghini Aventador"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        android:onClick="exibirFragmentLambo"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco"
+        android:background="@color/azul_claro"
+        android:text="Jaguar F-Type"
+        android:onClick="exibirFragmentJaguar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:background="@color/branco"
+        android:text="BOEING 747"
+        android:onClick="exibirFragmentBoeing" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentContainer" />
+
+</LinearLayout>
