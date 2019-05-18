@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -37,11 +38,18 @@ public class ContatoAdapter extends RecyclerView.Adapter<ContatoAdapter.ContatoV
 
     @Override
     public void onBindViewHolder(@NonNull ContatoViewHolder contatoViewHolder, int i) {
-        Contato contato = this.contatos.get(i);
+        final Contato contato = this.contatos.get(i);
 
         contatoViewHolder.imgContato.setImageResource(contato.getImagem());
         contatoViewHolder.txtNome.setText("" + contato.getNome());
         contatoViewHolder.txtTelefone.setText(contato.getTelefone());
+
+        contatoViewHolder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "Clicou em "+ contato.getNome(),Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override
