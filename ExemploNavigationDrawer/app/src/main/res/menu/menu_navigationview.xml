@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mniFusca"
+        android:title="@string/fusca"
+        android:icon="@drawable/ic_directions_car_black_24dp"/>
+
+    <item
+        android:id="@+id/mniFiatUno"
+        android:title="@string/fiat_uno"
+        android:icon="@drawable/ic_directions_car_black_24dp"/>
+
+    <item
+        android:id="@+id/mniCelta"
+        android:title="@string/celta"
+        android:icon="@drawable/ic_directions_car_black_24dp"/>
+
+    <item android:id="@+id/mniSobre" android:title="@string/sobre"
+        android:icon="@drawable/ic_info_outline_gray_24dp"/>
+
+    <item android:id="@+id/mniSair" android:title="@string/sair"
+        android:icon="@drawable/ic_exit_to_app_red_24dp" />
+</menu>

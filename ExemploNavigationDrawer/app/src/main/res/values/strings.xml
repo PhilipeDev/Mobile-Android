@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Exemplo NavigationDrawer</string>
+    <string name="selecione_uma_das_op_es">Selecione uma das opções:</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+    <string name="fechar">Fechar</string>
+    <string name="abrir">Abrir</string>
+    <string name="app_criado_por_abobrinha_amp_abacaxi"><![CDATA[APP criado por: \n abobrinha & abacaxi]]></string>
+    <string name="fusca">Fusca</string>
+    <string name="fiat_uno">Fiat Uno</string>
+    <string name="celta">Celta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="escolha_um_carro_no_menu">Escolha um carro no menu</string>
+</resources>

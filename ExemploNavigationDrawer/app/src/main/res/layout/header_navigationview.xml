@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="40dp"
+    android:background="@color/verde_escuro"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_android_yellow_60dp"
+        android:id="@+id/imgAndroid"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:id="@+id/txtAppName"
+        android:layout_toRightOf="@id/imgAndroid"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecione_uma_das_op_es"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#F2F2F2"
+        android:layout_toRightOf="@+id/imgAndroid"
+        android:layout_below="@id/txtAppName"
+        />
+
+</RelativeLayout>
