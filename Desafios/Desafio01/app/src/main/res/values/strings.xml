@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Desafio01</string>
+    <string name="somar">SOMAR</string>
+    <string name="titulo">DESAFIO 01 - SOMA</string>
+    <string name="primeiro_campo">Digite o primeiro número:</string>
+    <string name="segundo_campo">Digite o segundo número:</string>
+</resources>
